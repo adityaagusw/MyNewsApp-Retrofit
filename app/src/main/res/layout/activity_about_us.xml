@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AboutUs"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="15dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About US"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+        <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sindikatdarah"/>
+
+        <TextView
+                android:id="@+id/textSindikatAboutUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="isi text"
+                android:textColor="@color/blackFont"
+                android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+        <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="@color/garisKategori"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEVELOPER"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="serif"/>
+
+        <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="@color/garisKategori"
+                android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="15dp">
+
+            <!--Biodata Adi Hidayat-->
+
+            <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/adi"
+                    android:layout_marginTop="5dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adi Hidayat"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/blackFont"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1822499469"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/blackFont"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:id="@+id/textAdi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="isi textnya"
+                    android:layout_marginTop="17dp"
+                    android:textColor="@color/blackFont"
+                    android:gravity="center"/>
+
+
+            <!--Biodata Aditya Agus Wisanto-->
+
+            <View
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:background="@color/garisKategori"
+                    android:layout_margin="30dp"/>
+
+            <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/aditya"
+                    android:layout_marginTop="5dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aditya Agus Wisanto"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/blackFont"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1722498511"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/blackFont"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:id="@+id/textAditya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="isi textnya"
+                    android:layout_marginTop="17dp"
+                    android:textColor="@color/blackFont"
+                    android:gravity="center"/>
+
+            <!--Biodata Akmal Ardhi Pangestu-->
+
+            <View
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:background="@color/garisKategori"
+                    android:layout_margin="30dp"/>
+
+            <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/akmal"
+                    android:layout_marginTop="5dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Akmal Ardhi Pangestu"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/blackFont"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1722496678"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/blackFont"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:id="@+id/textAkmal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="isi textnya"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginBottom="30dp"
+                    android:textColor="@color/blackFont"
+                    android:gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

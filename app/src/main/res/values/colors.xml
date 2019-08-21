@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#C50000</color>
+    <color name="colorAccent">#ffc246</color>
+
+    <color name="Olahraga">#F44336</color>
+    <color name="Olahraga2">#C2362B</color>
+    <color name="Entertainment">#03A9F4</color>
+    <color name="Entertainment2">#006EA3</color>
+    <color name="Bisnis">#FFC107</color>
+    <color name="Bisnis2">#B98E06</color>
+    <color name="Politik">#8BC34A</color>
+    <color name="Politik2">#54752D</color>
+    <color name="Otomotif">#3F51B5</color>
+    <color name="Otomotif2">#242A6B</color>
+    <color name="FoodandTravel">#009688</color>
+    <color name="FoodandTravel2">#005248</color>
+    <color name="Font">#FFFFFF</color>
+    <color name="Button">#818181</color>
+    <color name="ButtonPress">#464646</color>
+
+    <color name="backgroundSplash">#D1D1D1</color>
+
+    <color name="backgroundColor">#fcfcfc</color>
+    <color name="lightGray">#ededed</color>
+
+    <color name="garisKategori">#CACACA</color>
+
+    <color name="blackFont">#000000</color>
+
+
+</resources>
